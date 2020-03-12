@@ -1,0 +1,20 @@
+{
+    "financeStatsData": [{
+    "name": "NPS Score",
+    "actionData": "18%",
+    "actionDataColor": "#28a745"
+  }, {
+    "name": "Revenue Uplift",
+    "actionData": "9%",
+    "actionDataColor": "#28a745"
+  }, {
+    "name": "Cost Savings",
+    "actionData": "170000$",
+    "actionDataColor": "#28a745"
+  }, {
+    "name": "Expenses",
+    "note": "Balance",
+    "actionData": "+1623$",
+    "actionDataColor": "#007bff"
+  }]
+}

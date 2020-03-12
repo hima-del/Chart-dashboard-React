@@ -1,0 +1,24 @@
+{
+  "progressGroup": {
+    "first": {
+      "name": "project A:",
+      "description": "Ipsum is simply dummy",
+      "progress": 66,
+      "status": "active"
+    },
+    "second": {
+      "name": "project B:",
+      "description": "Typesetting industry",
+      "progress": 23,
+      "status": "success"
+    },
+    "third": {
+      "name": "Project C:",
+      "description": "Typesetting industry",
+      "progress": 46,
+      "status": "exception"
+    }
+  }
+}
+
+

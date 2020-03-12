@@ -1,0 +1,31 @@
+{
+    "supportCasesTableData": [{
+      "key": "1",
+      "type": "Feature 0",
+      "amount": "In progress"
+    }, {
+      "key": "2",
+      "type": "Feature 1",
+      "amount": "Not started"
+    }, {
+      "key": "3",
+      "type": "Feature 2",
+      "amount": "Finished"
+    }, {
+      "key": "4",
+      "type": "Feature 3",
+      "amount": "In progress"
+    }, {
+      "key": "5",
+      "type": "Feature 4",
+      "amount": "Finished"
+    }],
+    "supportCasesPieData": {
+      "series": [
+        {"name": "Finished", "value": 2},
+        {"name": "In progress", "value": 2},
+        {"name": "Not started", "value": 1}
+      ]
+    }
+  }
+  
