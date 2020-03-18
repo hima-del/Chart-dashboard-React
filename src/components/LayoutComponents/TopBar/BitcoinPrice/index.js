@@ -1,25 +1,91 @@
 import React from 'react'
-import { Line } from 'peity-react'
+import { Menu, Dropdown } from 'antd'
 import { FormattedMessage } from 'react-intl'
-import style from './style.module.scss'
+import { Link } from 'react-router-dom'
+import styles from './style.module.scss'
 
 class BitcoinPrice extends React.Component {
-  state = {
-    chartsData: [5, 3, 9, 6, 5, 9, 7, 3, 5, 2],
-  }
-
   render() {
-    const { chartsData } = this.state
+    const menu = (
+      <Menu selectable={false}>
+        <Menu.Item>
+          <Link to="/">Current search</Link>
+        </Menu.Item>
+        <Menu.Item>
+          <Link to="/">Search for issues</Link>
+        </Menu.Item>
+        <Menu.Divider />
+        <Menu.ItemGroup title="Opened">
+          <Menu.Item>
+            <Link to="/">
+              <i className={`${styles.menuIcon} icmn-checkmark`} />
+              CLNUI-253 Project implemen...
+            </Link>
+          </Menu.Item>
+          <Menu.Item>
+            <Link to="/">
+              <i className={`${styles.menuIcon} icmn-checkmark`} />
+              CLNUI-234 Active history iss...
+            </Link>
+          </Menu.Item>
+          <Menu.Item>
+            <Link to="/">
+              <i className={`${styles.menuIcon} icmn-clock`} />
+              CLNUI-424 Ionicons intergrat...
+            </Link>
+          </Menu.Item>
+          <Menu.Item>
+            <Link to="/">More...</Link>
+          </Menu.Item>
+        </Menu.ItemGroup>
+        <Menu.Divider />
+        <Menu.ItemGroup title="Filters">
+          <Menu.Item>
+            <Link to="/">My open issues</Link>
+          </Menu.Item>
+          <Menu.Item>
+            <Link to="/">Reported by me</Link>
+          </Menu.Item>
+        </Menu.ItemGroup>
+        <Menu.Divider />
+        <Menu.Item>
+          <Link to="/">
+            <i className={`${styles.menuIcon} icmn-cog`} /> Settings
+          </Link>
+        </Menu.Item>
+      </Menu>
+    )
     return (
-      <div className={style.bitcoinPrice}>
-        <FormattedMessage id="topBar.bitcoin" />:
-        <span style={{ margin: '0 8px', position: 'relative', top: '3px' }}>
-          <Line values={chartsData} />
-        </span>
-        +20%
-      </div>
+      <Dropdown overlay={menu} trigger={['click']} placement="bottomLeft">
+        <div className={styles.dropdown}>
+          <i className={`${styles.icon} icmn-folder-open`} />
+          <span className="d-none d-xl-inline">
+            <strong>
+              <FormattedMessage id="topBar.bitcoin" />
+            </strong>
+          </span>
+        </div>
+      </Dropdown>
     )
   }
 }
+
+//   state = {
+//     chartsData: [5, 3, 9, 6, 5, 9, 7, 3, 5, 2],
+//   }
+
+//   render() {
+//     const { chartsData } = this.state
+//     return (
+//       <div className={style.bitcoinPrice}>
+//         <FormattedMessage id="topBar.bitcoin" />:
+//         <span style={{ margin: '0 8px', position: 'relative', top: '3px' }}>
+//           <Line values={chartsData} />
+//         </span>
+//         +20%
+//       </div>
+//     )
+//   }
+// }
 
 export default BitcoinPrice
