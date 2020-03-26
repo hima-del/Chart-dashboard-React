@@ -1,0 +1,96 @@
+@import 'assets/styles/mixins.scss';
+
+.paymentCard {
+  padding: rem(30) rem(30);
+  position: relative;
+}
+
+.icon {
+  text-align: center;
+  margin-bottom: rem(15);
+  i {
+    font-size: rem(54);
+    color: $gray-darken;
+  }
+}
+.circleY {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  float: right;
+  margin-top: 6px;
+  background-color: #ffd600;
+}
+.circleR {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  float: right;
+  margin-top: 6px;
+  background-color: #ef5350;
+}
+.circleG {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  float: right;
+  margin-top: 6px;
+  background-color: #00c853;
+}
+.dataValue {
+  float: right;
+  color: #000;
+}
+.name {
+  display: block;
+  text-align: center;
+  font-size: rem(32);
+  color: $black;
+  font-weight: bold;
+}
+
+.number {
+  display: block;
+  padding-top: 10%;
+  text-align: center;
+  font-size: rem(16);
+  margin-bottom: rem(20);
+  font-weight: bold;
+  color: black;
+}
+
+.type {
+  display: block;
+  text-align: center;
+  font-size: rem(16);
+  margin-bottom: rem(20);
+  font-weight: bold;
+  color: black;
+}
+
+.sum {
+  position: absolute;
+  top: rem(10);
+  right: rem(-10);
+  background: $success;
+  color: $white;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 100, 0.2);
+  padding: 0 rem(13);
+  font-weight: bold;
+  font-size: rem(18);
+
+  @media (max-width: $md-max-width) {
+    right: auto;
+    left: rem(10);
+  }
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  font-size: rem(16);
+  margin-bottom: rem(20);
+  font-weight: bold;
+  color: orange;
+}

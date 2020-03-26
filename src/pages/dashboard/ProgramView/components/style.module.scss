@@ -1,0 +1,103 @@
+@import 'assets/styles/mixins.scss';
+
+.chartBar {
+  background-color: green;
+  width: 25px;
+}
+
+.paymentCard {
+  padding: rem(30) rem(30);
+  position: relative;
+  cursor: pointer;
+
+  &.positive {
+    background-color: lighten(forestgreen, 60%);
+  }
+
+  &.neutral {
+    background-color: lighten(yellow, 45%);
+  }
+
+  &.negative {
+    background-color: lighten(red, 45%);
+  }
+}
+
+.titleContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  font-size: rem(32);
+  color: $black;
+  font-weight: bold;
+}
+
+.health {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffd600;
+
+  &.positive {
+    background-color: forestgreen;
+  }
+
+  &.negative {
+    background-color: red;
+  }
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 10% 0;
+}
+
+.chart {
+  display: flex;
+  flex: 1;
+  width: 100% !important;
+}
+
+.dataContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.typeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: rem(10) 0;
+  font-size: rem(16);
+  border-bottom: 1px dashed #d9d9d9;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.type {
+  font-weight: bold;
+}
+
+.value {
+  font-weight: bolder;
+}
+
+.positiveValue {
+  color: green;
+}
+
+.negativeValue {
+  color: red;
+}

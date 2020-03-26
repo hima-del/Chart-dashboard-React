@@ -21,13 +21,13 @@ export async function getLeftMenuData() {
       url: '/dashboard/alpha',
       icon: 'icmn icmn-home',
     },
-    // {
-    //   title: 'Overall Spend View',
-    //   key: 'DashboardNew',
-    //   url: '/dashboard/OverallSpendView',
-    //   icon: 'icmn icmn-home',
-    //   pro: true,
-    // },
+    //  {
+    //    title: 'Overall Spend View',
+    //    key: 'DashboardNew',
+    //    url: '/dashboard/OverallSpendView',
+    //    icon: 'icmn icmn-home',
+    //    pro: true,
+    //  },
     {
       title: 'Function View',
       key: 'FunctionView',

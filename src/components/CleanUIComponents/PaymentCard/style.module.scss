@@ -1,43 +1,45 @@
 @import 'assets/styles/mixins.scss';
 
 .paymentCard {
-  padding: rem(30) rem(30);
-  position: relative;
+  padding: rem(100) rem(100);
+  // position: relative;
+  height: 400px;
+  width: 400px;
 }
 
-.icon {
-  text-align: center;
-  margin-bottom: rem(15);
-  i {
-    font-size: rem(54);
-    color: $gray-darken;
-  }
-}
+// .icon {
+//   text-align: center;
+//   margin-bottom: rem(15);
+//   i {
+//     font-size: rem(54);
+//     color: $gray-darken;
+//   }
+// }
 
-.name {
-  display: block;
-  text-align: center;
-  font-size: rem(21);
-  color: $black;
-  font-weight: bold;
-}
+// .name {
+//   display: block;
+//   text-align: center;
+//   font-size: rem(21);
+//   color: $black;
+//   font-weight: bold;
+// }
 
-.number {
-  display: block;
-  text-align: center;
-  font-size: rem(16);
-  color: $text;
-  margin-bottom: rem(20);
-}
+// .number {
+//   display: block;
+//   text-align: center;
+//   font-size: rem(16);
+//   color: $text;
+//   margin-bottom: rem(20);
+// }
 
-.type {
-  display: block;
-  text-align: center;
-  font-size: rem(16);
-  margin-bottom: rem(20);
-  font-weight: bold;
-  color: $text;
-}
+// .type {
+//   display: block;
+//   text-align: center;
+//   font-size: rem(16);
+//   margin-bottom: rem(20);
+//   font-weight: bold;
+//   color: $text;
+// }
 
 .sum {
   position: absolute;
@@ -57,12 +59,12 @@
   }
 }
 
-.footer {
-  text-align: center;
-  border-top: 1px solid $gray-border;
-  color: $text;
-  padding-top: rem(10);
-  margin-bottom: rem(-15);
-  font-style: italic;
-  font-size: rem(13);
-}
+// .footer {
+//   text-align: center;
+//   border-top: 1px solid $gray-border;
+//   color: $text;
+//   padding-top: rem(10);
+//   margin-bottom: rem(-15);
+//   font-style: italic;
+//   font-size: rem(13);
+// }
