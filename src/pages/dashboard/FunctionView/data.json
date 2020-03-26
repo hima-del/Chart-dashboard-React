@@ -3,8 +3,8 @@
     {
       "title": "Program A",
       "healthStatus": "positive",
-      "npsScore": 68,
-      "revenueUplift": 28,
+      "npsScore": 18,
+      "revenueUplift": 9,
       "costSavings": 170000,
       "chartData": {
         "labels": [
@@ -16,8 +16,8 @@
     {
       "title": "Program B",
       "healthStatus": "neutral",
-      "npsScore": 18,
-      "revenueUplift": 8,
+      "npsScore": 2,
+      "revenueUplift": 1,
       "costSavings": 2300,
       "chartData": {
         "labels": ["Planned", "Actual Spend"],
@@ -27,7 +27,7 @@
     {
       "title": "Program C",
       "healthStatus": "negative",
-      "npsScore": -38,
+      "npsScore": -10,
       "revenueUplift": 0.1,
       "costSavings": -40000,
       "chartData": {
@@ -40,8 +40,8 @@
     {
       "title": "Program A",
       "healthStatus": "negative",
-      "npsScore": -44,
-      "revenueUplift": -33,
+      "npsScore": -4,
+      "revenueUplift": -3,
       "costSavings": -59700,
       "chartData": {
         "labels": ["Planned", "Actual Spend"],
@@ -51,7 +51,7 @@
     {
       "title": "Program B",
       "healthStatus": "positive",
-      "npsScore": 88,
+      "npsScore": 20,
       "revenueUplift": -0.8,
       "costSavings": 139800,
       "chartData": {
@@ -62,8 +62,8 @@
     {
       "title": "Program C",
       "healthStatus": "positive",
-      "npsScore": 68,
-      "revenueUplift": 8,
+      "npsScore": 6.8,
+      "revenueUplift": 3,
       "costSavings": 170000,
       "chartData": {
         "labels": ["Planned", "Actual Spend"],
@@ -75,7 +75,7 @@
     {
       "title": "Program A",
       "healthStatus": "positive",
-      "npsScore": 68,
+      "npsScore": 8,
       "revenueUplift": 18,
       "costSavings": 21050,
       "chartData": {
@@ -86,7 +86,7 @@
     {
       "title": "Program B",
       "healthStatus": "negative",
-      "npsScore": -68,
+      "npsScore": -4.8,
       "revenueUplift": -86,
       "costSavings": -170000,
       "chartData": {
