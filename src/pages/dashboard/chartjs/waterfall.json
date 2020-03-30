@@ -1,0 +1,19 @@
+[{
+    "period": "Jan",
+    "amount": 17000
+  }, {
+    "period": "Feb",
+    "amount": 14000
+  }, {
+    "period": "Mar",
+    "amount": 12000
+  }, {
+    "period": "Apr",
+    "amount": 10000
+  }, {
+    "period": "May",
+    "amount": 8000
+  }, {
+    "period": "Jun",
+    "amount":7000
+  }]

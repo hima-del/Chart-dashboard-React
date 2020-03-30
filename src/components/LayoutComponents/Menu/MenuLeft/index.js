@@ -108,7 +108,7 @@ class MenuLeft extends React.Component {
   generateMenuItems = () => {
     const { menuData = [] } = this.props
     const generateItem = item => {
-      const { key, title, url, icon, disabled, pro } = item
+      const { key, title, url, icon, disabled, } = item
       if (item.divider) {
         return <Divider key={Math.random()} />
       }
@@ -119,17 +119,17 @@ class MenuLeft extends React.Component {
               <a href={url} target={item.target} rel="noopener noreferrer">
                 {icon && <span className={`${icon} ${styles.icon} icon-collapsed-hidden`} />}
                 <span className={styles.title}>{title}</span>
-                {pro && (
+                {/* {pro && (
                   <span className="badge badge-primary badge-collapsed-hidden ml-2">PRO</span>
-                )}
+                )} */}
               </a>
             ) : (
               <Link to={url}>
                 {icon && <span className={`${icon} ${styles.icon} icon-collapsed-hidden`} />}
                 <span className={styles.title}>{title}</span>
-                {pro && (
+                {/* {pro && (
                   <span className="badge badge-primary badge-collapsed-hidden ml-2">PRO</span>
-                )}
+                )} */}
               </Link>
             )}
           </Menu.Item>
@@ -139,7 +139,7 @@ class MenuLeft extends React.Component {
         <Menu.Item key={key} disabled={disabled}>
           {icon && <span className={`${icon} ${styles.icon} icon-collapsed-hidden`} />}
           <span className={styles.title}>{title}</span>
-          {pro && <span className="badge badge-primary badge-collapsed-hidden ml-2">PRO</span>}
+          {/* {pro && <span className="badge badge-primary badge-collapsed-hidden ml-2">PRO</span>} */}
         </Menu.Item>
       )
     }
@@ -240,7 +240,7 @@ class MenuLeft extends React.Component {
           >
             {menu}
           </Menu>
-          <div className={styles.buyPro}>
+          {/* <div className={styles.buyPro}>
             <p>
               <strong>More components, more styles, more themes, and premium support!</strong>
             </p>
@@ -252,7 +252,7 @@ class MenuLeft extends React.Component {
             >
               Buy Bundle 26$
             </a>
-          </div>
+          </div> */}
         </Scrollbars>
       </Sider>
     )

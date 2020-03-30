@@ -1,14 +1,14 @@
 import React from 'react'
 import { Menu, Dropdown } from 'antd'
 import { FormattedMessage } from 'react-intl'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import styles from './style.module.scss'
 
 class BitcoinPrice extends React.Component {
   render() {
     const menu = (
       <Menu selectable={false}>
-        <Menu.Item>
+        {/* <Menu.Item>
           <Link to="/">Current search</Link>
         </Menu.Item>
         <Menu.Item>
@@ -52,13 +52,13 @@ class BitcoinPrice extends React.Component {
           <Link to="/">
             <i className={`${styles.menuIcon} icmn-cog`} /> Settings
           </Link>
-        </Menu.Item>
+        </Menu.Item> */}
       </Menu>
     )
     return (
       <Dropdown overlay={menu} trigger={['click']} placement="bottomLeft">
         <div className={styles.dropdown}>
-          <i className={`${styles.icon} icmn-folder-open`} />
+          <i className={`${styles.icon} fa fa-tasks`} />
           <span className="d-none d-xl-inline">
             <strong>
               <FormattedMessage id="topBar.bitcoin" />

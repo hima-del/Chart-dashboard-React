@@ -12,14 +12,14 @@ export async function getLeftMenuData() {
     //   target: '_blank',
     //   icon: 'icmn icmn-books',
     // },
-    // {
-    //   divider: true,
-    // },
     {
-      title: 'Dashboard Alpha with sample',
+      divider: true,
+    },
+    {
+      title: 'Overall Spend',
       key: 'dashboardAlpha',
       url: '/dashboard/alpha',
-      icon: 'icmn icmn-home',
+      icon: 'fa fa-usd',
     },
     //  {
     //    title: 'Overall Spend View',
@@ -29,17 +29,10 @@ export async function getLeftMenuData() {
     //    pro: true,
     //  },
     {
-      title: 'Function View',
+      title: 'Functional Cost-Benefit',
       key: 'FunctionView',
       url: '/dashboard/FunctionView',
-      icon: 'icmn icmn-home',
-      pro: true,
-    },
-    {
-      title: 'Program View',
-      key: 'ProgramView',
-      url: '/dashboard/ProgramView',
-      icon: 'icmn icmn-home',
+      icon: 'fa fa-users',
       pro: true,
     },
     // {
@@ -49,6 +42,14 @@ export async function getLeftMenuData() {
     //   icon: 'icmn icmn-home',
     //   pro: true,
     // },
+    {
+      title: 'Program Cost-Benefit',
+      key: 'ProgramView',
+      url: '/dashboard/ProgramView',
+      icon: 'fa fa-tasks',
+      pro: true,
+    },
+     
     // {
     //   title: 'Dashboard Beta',
     //   key: 'dashboardBeta',

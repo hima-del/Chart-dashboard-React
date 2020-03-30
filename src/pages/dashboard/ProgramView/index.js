@@ -14,20 +14,22 @@ class ProgramView extends React.Component {
               <div className="utils__title utils__title--flat mb-3">
                 <strong className="text-uppercase font-size-16">{unit}</strong>
               </div>
-              <div className="row">
-                {unitData.map(values => (
-                  <div className="col-lg-4">
-                    <ProgramCard
-                      title={values.title}
-                      healthStatus={values.healthStatus}
-                      npsScore={values.npsScore}
-                      revenueUplift={values.revenueUplift}
-                      costSavings={values.costSavings}
-                      chartData={values.chartData}
-                    />
-                  </div>
-                ))}
-              </div>
+              <a href="#/dashboard/ProjectView">
+                <div className="row">
+                  {unitData.map(values => (
+                    <div className="col-lg-4">
+                      <ProgramCard
+                        title={values.title}
+                        healthStatus={values.healthStatus}
+                        npsScore={values.npsScore}
+                        revenueUplift={values.revenueUplift}
+                        costSavings={values.costSavings}
+                        chartData={values.chartData}
+                      />
+                    </div>
+                  ))}
+                </div>
+              </a>
             </>
           )
         })}

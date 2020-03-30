@@ -6,7 +6,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
+    "test": "react-app-rewired test ",
     "lint-staged": "lint-staged",
     "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,scss,less}\"",
     "eslint": "eslint --ext .js,jsx src",
@@ -31,9 +31,13 @@
     ]
   },
   "dependencies": {
+    "@progress/kendo-drawing": "^1.6.0",
+    "@progress/kendo-react-charts": "^3.12.0",
+    "@progress/kendo-react-intl": "^3.10.1",
     "@rowno/sparkline": "^4.0.0",
     "antd": "^3.20.3",
     "bootstrap-css-only": "^4.3.1",
+    "canvasjs": "^1.8.3",
     "chart.js": "^2.8.0",
     "chartist": "^0.11.3",
     "chartist-plugin-tooltips-updated": "^0.0.21",
@@ -52,6 +56,8 @@
     "qs": "^6.7.0",
     "rc-drawer": "^1.10.1",
     "react": "^16.8.6",
+    "react-app": "^1.1.2",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-c3js": "^0.1.20",
     "react-chartist": "^0.13.3",
     "react-chartjs-2": "^2.7.6",
@@ -66,13 +72,14 @@
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-router-redux": "^4.0.8",
-    "react-scripts": "^3.4.0",
+    "react-scripts": "3.0.1",
     "react-stockcharts": "^0.7.8",
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
     "redux-saga": "^1.0.5",
     "redux-thunk": "^2.3.0",
-    "store": "^2.0.12"
+    "store": "^2.0.12",
+    "waterfall-data": "^1.0.5"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.4.4",

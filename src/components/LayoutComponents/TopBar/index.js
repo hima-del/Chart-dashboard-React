@@ -5,7 +5,7 @@ import React from 'react'
 import ProjectManagement from './ProjectManagement'
 import IssuesHistory from './IssuesHistory'
 // import LiveSearch from './LiveSearch'
- import BitcoinPrice from './BitcoinPrice'
+import BitcoinPrice from './BitcoinPrice'
 // import ProfileMenu from './ProfileMenu'
 // import LanguageSelector from './LanguageSelector'
 import styles from './style.module.scss'
@@ -14,11 +14,16 @@ class TopBar extends React.Component {
   render() {
     return (
       <div className={styles.topbar}>
+        {/* <a href="#/dashboard/alpha"> */}
         <div className="mr-4">
           <IssuesHistory />
         </div>
+        {/* </a> */}
         <div className="mr-4">
           <ProjectManagement />
+        </div>
+        <div className="mr-4">
+          <BitcoinPrice />
         </div>
         {/* <div className="mr-auto">
           <LiveSearch />
@@ -33,9 +38,7 @@ class TopBar extends React.Component {
             <FormattedMessage id="topBar.buyNow" />
           </Button> */}
         </a>
-        <div className="mr-4">
-          <BitcoinPrice />
-        </div>
+
         {/* <div className="mr-4">
           <LanguageSelector />
         </div>

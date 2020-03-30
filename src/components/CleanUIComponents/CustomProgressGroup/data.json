@@ -1,0 +1,30 @@
+{
+  "progressGroup": {
+    "first": {
+      "name": "Planning",
+      "description": "",
+      "progress": 100,
+      "status": "success"
+    },
+    "second": {
+      "name": "Design",
+      "description": "",
+      "progress": 100,
+      "status": "success"
+    },
+    "third": {
+      "name": "Development",
+      "description": "",
+      "progress": 50,
+      "status": "active"
+    },
+    "fourth": {
+      "name": "Testing",
+      "description": "",
+      "progress": 10,
+      "status": "active"
+    }
+  }
+}
+
+

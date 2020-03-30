@@ -26,6 +26,31 @@
         {"name": "In progress", "value": 2},
         {"name": "Not started", "value": 1}
       ]
+    },
+  "taskTableData": [
+    {
+      "key": 1,
+      "name": "Customer Onboarding",
+      "username": "Shekhar",
+      "status": "completed"
+    },
+    {
+      "key": 2,
+      "name": "Product Catalogue",
+      "username": "Eugenia",
+      "status": "progress"
+    },
+    {
+      "key": 3,
+      "name": "Contract Generation",
+      "username": "Tronic",
+      "status": "progress"
+    },
+    {
+      "key": 4,
+      "name": "Digicore Integration",
+      "username": "Nijesh",
+      "status": "blocked"
     }
-  }
-  
+  ]
+}

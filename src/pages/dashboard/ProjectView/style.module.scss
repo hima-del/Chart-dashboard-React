@@ -1,26 +1,34 @@
-// @import 'assets/styles/mixins.scss';
+@import 'assets/styles/mixins.scss';
 
-// .chartPieExample {
-//   :global(.ct-chart) {
-//     height: rem(200);
-//   }
+.noPadding {
+  padding: 0 !important;
+}
 
-//   :global(.ct-series-a) path {
-//     stroke: $success;
-//   }
+.flexContainer {
+  padding: 0 15px;
+  display: flex;
+  width: 100%;
+  flex: 1;
+}
 
-//   :global(.ct-series-b) path {
-//     stroke: $primary;
-//   }
+.flexMainItem {
+  flex: 1;
+  height: 100%;
+}
 
-//   :global(.ct-series-c) path {
-//     stroke: $danger;
-//   }
+.flexItem {
+  display: flex;
+  height: 100%;
+}
 
-//   :global(.ct-series) path {
-//     transition: stroke-opacity 0.2s ease-in-out;
-//     &:hover {
-//       stroke-opacity: 0.8;
-//     }
-//   }
-// }
+.budgetContainer {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.budgetSections {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}

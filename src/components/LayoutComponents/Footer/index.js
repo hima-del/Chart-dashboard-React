@@ -1,11 +1,11 @@
-import React from 'react'
-import { Button } from 'antd'
+ import React from 'react'
+// import { Button } from 'antd'
 import styles from './style.module.scss'
 
 const Footer = () => (
   <div className={styles.footer}>
     <div className={styles.inner}>
-      <div className="row">
+      {/* <div className="row">
         <div className="col-lg-9">
           <p>
             <strong>Clean UI React Admin Template - Best Solution for Your App!</strong>
@@ -23,7 +23,7 @@ const Footer = () => (
             both normal and minified CSS files, compiled from SASS.
           </p>
         </div>
-      </div>
+      </div> */}
       <div className={styles.bottom}>
         <div className="row">
           <div className="col-sm-6">
@@ -33,24 +33,24 @@ const Footer = () => (
               rel="noopener noreferrer"
               className="mr-4"
             >
-              <Button type="danger">Buy Bundle 26$</Button>
+              {/* <Button type="danger">Buy Bundle 26$</Button> */}
             </a>
           </div>
           <div className="col-sm-6">
             <div className={styles.copyright}>
-              <img
+              {/* <img
                 src="resources/images/mediatec.png"
                 rel="noopener noreferrer"
                 alt="Mediatec Software"
-              />
-              <span>
+              /> */}
+              {/* <span>
                 © 2019{' '}
                 <a href="http://mediatec.org/" target="_blank" rel="noopener noreferrer">
                   Mediatec Software
                 </a>
                 <br />
                 All rights reserved
-              </span>
+              </span> */}
             </div>
           </div>
         </div>

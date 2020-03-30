@@ -1,0 +1,38 @@
+@import 'assets/styles/mixins.scss';
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  max-width: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: rem(20);
+  border-radius: 3px;
+  background: lighten($success, 30%);
+}
+
+.title {
+  font-size: rem(30);
+  text-align: center;
+  color: $text-darken;
+}
+
+.date {
+  padding: 15px 0;
+  display: flex;
+  //flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    color: $success;
+    margin-right: 15px;
+  }
+}
+
+.desc {
+  color: $text;
+  font-size: rem(16);
+}

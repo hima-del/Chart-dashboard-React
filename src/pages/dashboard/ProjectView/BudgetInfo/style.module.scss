@@ -1,0 +1,42 @@
+@import 'assets/styles/mixins.scss';
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  max-width: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: rem(20);
+  border-radius: 3px;
+}
+
+.infoRow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.infoName {
+  color: $text;
+  font-size: rem(16);
+}
+
+.infoValue {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: center;
+  color: $text-darken-more;
+  font-size: rem(18);
+  font-weight: bold;
+
+  span {
+    font-size: rem(16);
+    color: $danger;
+    line-height: 1;
+  }
+}
